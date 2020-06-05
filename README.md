@@ -1,2 +1,0 @@
-# Avocorp
-cargo website
