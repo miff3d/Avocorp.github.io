@@ -19,12 +19,13 @@
 <body>
   <header>
     <div class="container-fluid p-0">
-
+      <!--Navigation bar-->
       <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="#">Avocorp</a>
+        <a class="navbar-brand" href="#">
+          <img src="https://img.icons8.com/ios-filled/50/000000/shipped.png" />Avocorp</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+          <i class="fas fa-align-right text-light"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <div class="mr-auto">
@@ -49,13 +50,13 @@
               </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Where in nairobi</a>
+              <a class="nav-link" href="#">Where in nairobi</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Discounts</a>
+              <a class="nav-link" href="#">Discounts</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Trends</a>
+              <a class="nav-link" href="#">Trends</a>
             </li>
           </ul>
         </div>
@@ -69,7 +70,7 @@
           <h1> COMPANIES AND SERVICES</h1>
           <p>We render executive service to your air freight cargo from , USA, China, UK, India and Thailand to kenya
             for all businesses </p>
-          <button class="btn btn-light" px-5 py-2>Browse Categories</button>
+          <button class="btn btn-light px-5 py-2 primary-btn">Browse Categories</button>
         </div>
         <div class="col-md-5 col-sm-12" h25>
           <img src="../assets/box.png" alt="">
@@ -79,62 +80,104 @@
   </header>
 
   <main>
-    <div class="container">
+    <section class="section-1">
+      <div class="container">
+        <h5>MORE WE OFFER</h5>
+        <div class="row row-cols-1 row-cols-md-2">
+          <div class="col-lg-4 col-sm-6">
+            <div class="card text-center hover-shadow-lg hover-translate-y-n10">
+              <div class="px-4 py-5">
+                <img src="https://img.icons8.com/nolan/64/treasure-map.png" />
+              </div>
+              <div class="px-4 pb-5">
+                <h5>Where in Nairobi</h5>
+                <p class="text-muted">where in Nairobi to find services.</p>
+                <a href="#" class="btn btn-secondary btn-lg disabled" tabindex="-1" role="button"
+                  aria-disabled="true">Find</a>
+                <!--<a href="#" class="btn btn-primary" >Find</a>-->
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="card text-center hover-shadow-lg hover-translate-y-n10">
+              <div class="px-4 py-5">
+                <img src="https://img.icons8.com/nolan/64/discount.png" />
+              </div>
+              <div class="px-4 pb-5">
+                <h5>Discount</h5>
+                <p class="text-muted">Latest Discount on our services</p>
+                <a href="#" class="btn btn-secondary btn-lg disabled" tabindex="-1" role="button"
+                  aria-disabled="true">Check Out</a>
+                <!--<a href="#" class="btn btn-primary" >Check Out</a>-->
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="card text-center hover-shadow-lg hover-translate-y-n10">
+              <div class="px-4 py-5">
+                <img src="https://img.icons8.com/nolan/64/ratings.png" />
+              </div>
+              <div class="px-4 pb-5">
+                <h5>Trends</h5>
+                <p class="text-muted">Latest Trends in the Cargo world</p>
+                <a href="#" class="btn btn-secondary btn-lg disabled" tabindex="-1" role="button"
+                  aria-disabled="true">Check Out</a>
+                <!--<a href="#" class="btn btn-primary" >Check Out</a>-->
+              </div>
+            </div>
+          </div>
+        </div>
 
-      <div class="row row-cols-1 row-cols-md-2">
-        <div class="col mb-4">
-          <div class="card">
-            <img src="../assets/newspaper.png" class="card-img-top" alt="..." width="50%" height="50%">
-            <div class="card-body">
-              <h5 class="card-title">News</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-                content. This content is a little bit longer.</p>
-              <a href="#" class="btn btn-primary">Read</a>
-            </div>
+      </div>
+    </section>
+
+    <section class="pb-0">
+      <div class="container">
+        <div class="row align-items-end gutter-1">
+          <div class="col-md-8">
+            <h2>News</h2>
+          </div>
+          <div class="col-md-4 text-md-right">
+            <a href="#" class="action eyebrow underline">View All</a>
           </div>
         </div>
-        <div class="col mb-4">
-          <div class="card">
-            <img src="../assets/signpost.png" class="card-img-top" alt="..." width="50%" height="50%">
-            <div class="card-body">
-              <h5 class="card-title">Where in Nairobi</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-                content. This content is a little bit longer.</p>
-              <a href="#" class="btn btn-secondary btn-lg disabled" tabindex="-1" role="button"
-                aria-disabled="true">Find</a>
-              <!--<a href="#" class="btn btn-primary" >Find</a>-->
+        <div class="row gutter-3">
+          <div class="col-md-6 col-lg-4">
+            <div class="card card-post">
+              <figure class="equal equal-50">
+                <img src="../assets/air.jpg" alt="Air Freight">
+              </figure>
+              <div class="card-body">
+                <span class="eyebrow text-muted">23 March 2020</span>
+                <h4 class="card-title"><a href="#">Air Freight Affected By Pandemic</a></h4>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col mb-4">
-          <div class="card">
-            <img src="../assets/delivery-truck.png" class="card-img-top" alt="..." width="50%" height="50%">
-            <div class="card-body">
-              <h5 class="card-title">Discounts</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-                content.</p>
-              <a href="#" class="btn btn-secondary btn-lg disabled" tabindex="-1" role="button"
-                aria-disabled="true">Check Out</a>
-              <!--<a href="#" class="btn btn-primary" >Check Out</a>-->
+          <div class="col-md-6 col-lg-4">
+            <div class="card card-post">
+              <figure class="equal equal-50">
+                <img src="../assets/containerlift.jpg" alt="" width="100%" height="100%">
+              </figure>
+              <div class="card-body">
+                <span class="eyebrow text-muted">12 April 2020</span>
+                <h4 class="card-title"><a href="#">Operations Stopped</a></h4>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col mb-4">
-          <div class="card">
-            <img src="../assets/trend.png" class="card-img-top" alt="..." width="50%" height="50%">
-            <div class="card-body">
-              <h5 class="card-title">Trends</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-                content. This content is a little bit longer.</p>
-              <a href="#" class="btn btn-secondary btn-lg disabled" tabindex="-1" role="button"
-                aria-disabled="true">Check Out</a>
-              <!--<a href="#" class="btn btn-primary" >Check Out</a>-->
+          <div class="col-md-6 col-lg-4">
+            <div class="card card-post">
+              <figure class="equal equal-50">
+                <img src="../assets/port.jpg" alt="Mombasa port" width="100%" height="100%">
+              </figure>
+              <div class="card-body">
+                <span class="eyebrow text-muted">22 April 2020</span>
+                <h4 class="card-title"><a href="#">Cargo Through Mombasa Port Fell Bellow Target</a></h4>
+              </div>
             </div>
           </div>
         </div>
       </div>
-
-    </div>
+    </section>
   </main>
 
   <footer>
@@ -144,7 +187,7 @@
           <h4 class="text-light">About us</h4>
           <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum maxime ea similique
             illum corrupti</p>
-          <p class="pt-4 text-muted">Copyright ©2019 All rights reserved | This template is made with by
+          <p class="pt-4 text-muted">Copyright ©2019 All rights reserved | This template is made for
             <span> Avocop</span>
           </p>
         </div>
